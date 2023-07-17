@@ -1,0 +1,106 @@
+body {
+  background-color: #222;
+
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sacramento", cursive;
+}
+
+p {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  margin: 0;
+  color: aliceblue;
+}
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sacramento", cursive;
+}
+button:hover {
+  background-color: rgb(73, 71, 71);
+}
+h1 {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+}
+hr {
+  height: 5px;
+  background-color: white;
+}
+#box {
+  width: 120px;
+  height: 100px;
+  position: relative;
+  background-color: white;
+  left: 570px;
+  bottom: 60px;
+}
+#qmark {
+  color: black;
+  font-size: 80px;
+
+  position: relative;
+  left: 35px;
+  top: 0;
+}
+.number {
+  color: white;
+  background: none;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  bottom: 50px;
+  left: 190px;
+  font-size: 50px;
+  text-align: center;
+  border: solid 5px white;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sacramento", cursive;
+}
+#check {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  position: relative;
+  right: 50px;
+  top: 100px;
+}
+.guess {
+  color: white;
+  font-size: 60px;
+  position: relative;
+  left: 950px;
+}
+.score {
+  color: white;
+  font-size: 50px;
+  margin-top: 100px;
+  right: 120px;
+}
+
+#info {
+  position: relative;
+  bottom: 240px;
+  right: 250px;
+}
+.text {
+  font-size: 30px;
+}
+.highscore {
+  color: white;
+  font-size: 60px;
+  margin-top: 100px;
+  top: 100px;
+  right: 130px;
+}
